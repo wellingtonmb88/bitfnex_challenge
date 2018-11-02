@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import OrderBook from "./components/OrderBook";
 import "./App.css";
 
