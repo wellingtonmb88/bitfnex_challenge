@@ -1,0 +1,82 @@
+.header-table-book {
+  width: 100%;
+  padding: 10px;
+  padding-left: 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.chevron-more,
+.chevron-right {
+  color: #9d9e9e;
+  float: left;
+  margin-top: -2px;
+}
+
+.chevron-more {
+  transform: rotate(90deg);
+}
+
+.minimize,
+.add {
+  color: #9d9e9e;
+}
+
+.minimize {
+  margin-top: -8px;
+}
+
+.header-table-book .title {
+  color: #ebebeb;
+}
+
+.header-table-book .crypto-label {
+  color: #9d9e9e;
+  padding-left: 10px;
+}
+
+
+.tooltip-hide {
+  visibility: hidden;
+}
+
+.header-title {
+  float: left;
+}
+
+.tooltip {
+  position: relative;
+  float: right;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: rgba(83, 139, 202, 0.849);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -75px;
+}
+
+.tooltip .tooltiptext:after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(83, 139, 202, 0.849) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
